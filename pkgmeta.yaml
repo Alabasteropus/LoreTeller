@@ -1,0 +1,53 @@
+package-as: LoreTeller
+
+enable-nolib-creation: no
+
+ignore:
+  - .git
+  - .github
+  - .kiro
+  - .vscode
+  - scripts
+  - tts_cli
+  - research
+  - docs
+  - assets
+  - AI_VoiceOver
+  - AI_VoiceOverData_Vanilla
+  - "*.py"
+  - "*.sql"
+  - "*.md"
+  - "*.txt"
+  - "*.env*"
+  - docker-compose.yml
+  - requirements.txt
+
+externals:
+  LoreTeller/Libs/LibStub:
+    url: https://repos.curseforge.com/wow/libstub/trunk
+  LoreTeller/Libs/CallbackHandler-1.0:
+    url: https://repos.curseforge.com/wow/callbackhandler/trunk/CallbackHandler-1.0
+  LoreTeller/Libs/AceAddon-3.0:
+    url: https://repos.curseforge.com/wow/ace3/trunk/AceAddon-3.0
+  LoreTeller/Libs/AceDB-3.0:
+    url: https://repos.curseforge.com/wow/ace3/trunk/AceDB-3.0
+  LoreTeller/Libs/AceDBOptions-3.0:
+    url: https://repos.curseforge.com/wow/ace3/trunk/AceDBOptions-3.0
+  LoreTeller/Libs/AceGUI-3.0:
+    url: https://repos.curseforge.com/wow/ace3/trunk/AceGUI-3.0
+  LoreTeller/Libs/AceConfig-3.0:
+    url: https://repos.curseforge.com/wow/ace3/trunk/AceConfig-3.0
+  LoreTeller/Libs/AceConsole-3.0:
+    url: https://repos.curseforge.com/wow/ace3/trunk/AceConsole-3.0
+  LoreTeller/Libs/AceEvent-3.0:
+    url: https://repos.curseforge.com/wow/ace3/trunk/AceEvent-3.0
+  LoreTeller/Libs/AceTimer-3.0:
+    url: https://repos.curseforge.com/wow/ace3/trunk/AceTimer-3.0
+  LoreTeller/Libs/LibDataBroker-1.1:
+    url: https://repos.curseforge.com/wow/libdatabroker-1-1
+  LoreTeller/Libs/LibDBIcon-1.0:
+    url: https://repos.curseforge.com/wow/libdbicon-1-0/trunk/LibDBIcon-1.0
+
+move-folders:
+  LoreTeller/LoreTeller: LoreTeller
+  LoreTellerData_Vanilla/LoreTellerData_Vanilla: LoreTellerData_Vanilla

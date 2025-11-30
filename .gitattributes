@@ -1,0 +1,11 @@
+# Git LFS tracking for LoreTellerData_Vanilla large files
+
+# Audio files
+LoreTellerData_Vanilla/generated/sounds/**/*.mp3 filter=lfs diff=lfs merge=lfs -text
+LoreTellerData_Vanilla/generated/sounds/**/*.ogg filter=lfs diff=lfs merge=lfs -text
+LoreTellerData_Vanilla/generated/sounds/**/*.wav filter=lfs diff=lfs merge=lfs -text
+
+# Image files
+LoreTellerData_Vanilla/generated/images/**/*.tga filter=lfs diff=lfs merge=lfs -text
+LoreTellerData_Vanilla/generated/images/**/*.blp filter=lfs diff=lfs merge=lfs -text
+LoreTellerData_Vanilla/generated/images/**/*.png filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,5 @@
+*.zip
+release/
+.vscode/
+LoreTellerData_Vanilla/generated/sounds/
+LoreTellerData_Vanilla/generated/images/

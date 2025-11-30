@@ -1,0 +1,9 @@
+## Interface: 11200
+## Title: LoreTeller
+## Notes: Immersive lore narration for World of Warcraft
+## Version: 1.0.0
+## SavedVariables: LoreTellerDB
+## X-Part-Of: LoreTeller
+
+embeds.xml
+addon.xml
